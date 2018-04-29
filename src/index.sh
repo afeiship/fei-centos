@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 BASH_BASE_PATH=~/github/fei-centos;
 
-## initail ushell_modules:
-for dir in $(ls $BASH_BASE_PATH/ushell_modules)
+## initail node_modules:
+for dir in $(ls $BASH_BASE_PATH/node_modules)
 do
-  if [ -d $BASH_BASE_PATH/ushell_modules/$dir ]; then
+  if [ -d $BASH_BASE_PATH/node_modules/$dir ]; then
     # echo $dir;
-    source $BASH_BASE_PATH/ushell_modules/$dir/index.sh;
+    source $BASH_BASE_PATH/node_modules/$dir/index.sh;
   fi
 done
 

@@ -1,23 +1,23 @@
 {
   "name": "fei-centos",
-  "homepage": "http://git.oschina.net/afeiship/fei-centos",
-  "authors": [
-    "feizheng <1290657123@qq.com>"
-  ],
+  "version": "0.0.1",
   "description": "My centos configuration",
-  "main": "index.sh",
+  "main": "src/index.sh",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afeiship/fei-centos.git"
+  },
   "keywords": [
-    "fei",
-    "mac"
+    "unix",
+    "shell",
+    "centos"
   ],
+  "author": "afei",
   "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
+  "bugs": {
+    "url": "https://github.com/afeiship/fei-centos/issues"
+  },
+  "homepage": "https://github.com/afeiship/fei-centos#readme",
   "dependencies": {
     "ushell-module-base": "afeiship/ushell-module-base",
     "ushell-module-git": "afeiship/ushell-module-git",
