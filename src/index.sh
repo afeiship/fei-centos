@@ -24,4 +24,3 @@ done
 #Edit file
 alias alias-reload='source $BASH_BASE_PATH/src/index.sh';
 alias alias-backup='cd $BASH_BASE_PATH/ && gg "Automatic update alias config" && cd -';
-# alias macfiles-backup='cd ~/git-oschina/backup-mac-files/ && gg "Automatic backup mac files" && cd -';
