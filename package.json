@@ -1,7 +1,7 @@
 {
   "name": "fei-centos",
   "version": "0.0.1",
-  "description": "My centos configuration",
+  "description": "My centos configuration.",
   "main": "src/index.sh",
   "repository": {
     "type": "git",
