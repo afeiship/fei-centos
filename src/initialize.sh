@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
-# step1, copy ssh id to target:
-ssh-copy-id root@192.168.10.251
+cd ~
+wget https://github.com/afeiship/dotfiles/raw/master/ssh.tgz
+tar zxf ssh.tgz
+sudo chown -R $(whoami) .ssh
 
-#
+## chown
+cd .ssh
+chmod 600 *
+chmod 600 *.*
