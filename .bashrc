@@ -8,13 +8,9 @@ alias mv='mv -i'
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then
-        . /etc/bashrc
+  . /etc/bashrc
 fi
 
 
-
-## show the host name in Linux commandline prompt
-export PS1='\u@\h:\w\$ ';
-
 ## inital unix shell modules:
-source ~/github/fei-centos/src/index.sh;
+source ~/github/centos-settings/src/index.sh;

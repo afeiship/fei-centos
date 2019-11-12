@@ -1,6 +1,6 @@
 {
-  "name": "fei-centos",
-  "version": "0.0.1",
+  "name": "centos-settings",
+  "version": "1.0.0",
   "description": "My centos configuration.",
   "main": "src/index.sh",
   "repository": {
