@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-BASH_BASE_PATH=~/github/fei-centos;
+BASH_BASE_PATH=~/github/centos-settings;
 
 ## initail node_modules:
 for dir in $(ls $BASH_BASE_PATH/node_modules)
@@ -9,7 +9,6 @@ do
     source $BASH_BASE_PATH/node_modules/$dir/index.sh;
   fi
 done
-
 
 
 for dir in $(ls $BASH_BASE_PATH/src)

@@ -5,7 +5,7 @@
   "main": "src/index.sh",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/afeiship/fei-centos.git"
+    "url": "git+https://github.com/afeiship/centos-settings.git"
   },
   "keywords": [
     "unix",
@@ -15,9 +15,9 @@
   "author": "afei",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/afeiship/fei-centos/issues"
+    "url": "https://github.com/afeiship/centos-settings/issues"
   },
-  "homepage": "https://github.com/afeiship/fei-centos#readme",
+  "homepage": "https://github.com/afeiship/centos-settings#readme",
   "dependencies": {
     "ushell-module-base": "afeiship/ushell-module-base",
     "ushell-module-git": "afeiship/ushell-module-git",
