@@ -1,25 +1,10 @@
 #!/usr/bin/env bash
 BASH_BASE_PATH=~/github/centos-settings;
 
-## initail node_modules:
-for dir in $(ls $BASH_BASE_PATH/node_modules)
+# for scoped ushell-module @afeiship/@feizheng
+for dir in $(ls $BASH_BASE_PATH/node_modules/@*fei*)
 do
-  if [ -d $BASH_BASE_PATH/node_modules/$dir ]; then
-    # echo $dir;
-    source $BASH_BASE_PATH/node_modules/$dir/index.sh;
+  if [ -d $BASH_BASE_PATH/node_modules/@*fei*/$dir ]; then
+    source $BASH_BASE_PATH/node_modules/@*fei*/$dir/index.sh;
   fi
 done
-
-
-for dir in $(ls $BASH_BASE_PATH/src)
-do
-  if [ -d $BASH_BASE_PATH/src/$dir ]; then
-    source $BASH_BASE_PATH/src/$dir/index.sh;
-  fi
-done
-
-
-
-#Edit file
-alias alias-reload='source $BASH_BASE_PATH/src/index.sh';
-alias alias-backup='cd $BASH_BASE_PATH/ && gg "Automatic update alias config" && cd -';

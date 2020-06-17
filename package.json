@@ -1,5 +1,5 @@
 {
-  "name": "centos-settings",
+  "name": "@feizheng/centos-settings",
   "version": "1.0.0",
   "description": "My centos configuration.",
   "main": "src/index.sh",
@@ -19,24 +19,12 @@
   },
   "homepage": "https://github.com/afeiship/centos-settings#readme",
   "dependencies": {
-    "ushell-module-base": "afeiship/ushell-module-base",
-    "ushell-module-git": "afeiship/ushell-module-git",
-    "ushell-module-bower": "afeiship/ushell-module-bower",
-    "ushell-module-network": "afeiship/ushell-module-network",
-    "ushell-module-autojump": "afeiship/ushell-module-autojump",
-    "ushell-module-tar": "afeiship/ushell-module-tar",
-    "ushell-module-vim": "afeiship/ushell-module-vim",
-    "ushell-module-nodejs": "afeiship/ushell-module-nodejs",
-    "ushell-module-wget": "afeiship/ushell-module-wget",
-    "ushell-module-ssh": "afeiship/ushell-module-ssh",
-    "ushell-module-sysinfo": "afeiship/ushell-module-sysinfo",
-    "ushell-module-env": "afeiship/ushell-module-env",
-    "ushell-module-rbenv": "afeiship/ushell-module-rbenv",
-    "ushell-module-lamp": "afeiship/ushell-module-lamp",
-    "ushell-module-redis": "afeiship/ushell-module-redis",
-    "ushell-module-iptables": "afeiship/ushell-module-iptables",
-    "ushell-module-crontab": "afeiship/ushell-module-crontab",
-    "ushell-module-ostype": "afeiship/ushell-module-ostype",
-    "ushell-module-hosts": "afeiship/ushell-module-hosts"
+    "@feizheng/ushell-module-autojump": "^1.0.0",
+    "@feizheng/ushell-module-base": "^1.0.4",
+    "@feizheng/ushell-module-git": "^1.0.7",
+    "@feizheng/ushell-module-hosts": "^1.0.0",
+    "@feizheng/ushell-module-nodejs": "^1.0.2",
+    "@feizheng/ushell-module-ostype": "^1.0.1",
+    "@feizheng/ushell-module-sysinfo": "^1.0.0"
   }
 }
